@@ -18,4 +18,4 @@ while True:
         print("I got it in {} guess!".format(guesses))
     else:
         print("h, l or c")
-    guesses =guesses +1
+    guesses =guesses +1 #guesses+=1
