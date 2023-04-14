@@ -19,3 +19,6 @@ while True:
     else:
         print("h, l or c")
     guesses =guesses +1 #guesses+=1
+    #x +=1
+    #x//=4
+    #x%=4
