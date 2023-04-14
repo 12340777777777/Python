@@ -1,0 +1,21 @@
+low =1
+high =1000
+
+print("Enter a number between {} and {}".format(low,high))
+input("press enter to start")
+
+guesses =1
+while True:
+    guess = low + (high - low)//2
+    high_low = input("My guess is {}. Should I enter higher or lower?"
+    "enter h or l, or c if my guess was correct".format(guess).casefold())
+    if high_low =="h":
+        low= guess +1
+    elif high_low =="l":
+        high = guess -1
+        #pass is a place holder for ral code to rmove error now
+    elif high_low =="c":
+        print("I got it in {} guess!".format(guesses))
+    else:
+        print("h, l or c")
+    guesses =guesses +1
